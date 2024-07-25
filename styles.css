@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h3,td{
+    text-align : center;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-color:#F9F1F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{
+    float: right;
+    height: 250px;
+    width: 200px;
+    margin-right: 80px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color:#F79489;
+    z-index: 1000; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #d81d1d;;
+}
+nav ul li a{
+    font-weight: bold;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 6%;
+    padding-top: 86px;
+}
+.info h1{
+    font-size:40px;
+    color:black;
+    margin-bottom:20px;
+}
+.info p{
+    color:black;
+    line-height: 22px;
+}
+.social{
+    margin-left: 8%;
+    margin-top: 10px;
+}
+.social a{
+    font-size:35px;
+    color:black;
+    margin-right: 20px;
+}
+.social a:hover{
+    color:blue;
+}
+.edu{
+    height: 100vh;
+    width:100%;
+    background-color:#FADCD9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding-top: 86px;
+}
+.edu a h3{
+    text-align:center;
+    color:black;
+}
+.edu table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.edu table,.edu th,.edu td{
+    border: 2px solid;
+    border-color: black;
+    padding: 5px;
+}
+.skill{
+    height: 100vh;
+    width:100%;
+    background-color:#F8AFA6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding-top: 86px;
+}
+.skill a h3{
+    text-align:center;
+    color:rgb(51, 122, 55);
+}
+.skill ul{
+    margin-top: 4%;
+    text-align: center;
+    color:black;
+}
+.skill ul li{
+    margin-top: 2%;
+}
+.contact{
+    background-color: #e4a59e;
+    height:100vh;
+    width: 100%;
+    padding-top: 86px;
+    text-align: center;
+}
+.contact p{
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
