@@ -9,7 +9,7 @@ h3,td{
 .hero{
     height: 100vh;
     width:100%;
-    background-color:#F9F1F0;
+    background-color:gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .image{
@@ -23,7 +23,7 @@ nav {
     top: 0;
     left:0;
     width: 100%;
-    background-color:#F79489;
+    background-color:black;
     z-index: 1000; 
     padding: 20px 0;
     display: flex;
@@ -36,10 +36,10 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 nav ul li a:hover{
-    color: #d81d1d;;
+    color:  rgb(138, 186, 152);
 }
 nav ul li a{
     font-weight: bold;
@@ -73,7 +73,7 @@ nav ul li a{
 .edu{
     height: 100vh;
     width:100%;
-    background-color:#FADCD9;
+    background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     padding-top: 86px;
@@ -97,14 +97,14 @@ nav ul li a{
 .skill{
     height: 100vh;
     width:100%;
-    background-color:#F8AFA6;
+    background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     padding-top: 86px;
 }
 .skill a h3{
     text-align:center;
-    color:rgb(51, 122, 55);
+    color:c;
 }
 .skill ul{
     margin-top: 4%;
@@ -114,8 +114,33 @@ nav ul li a{
 .skill ul li{
     margin-top: 2%;
 }
+.projects{
+    background-color: gray;
+    height:100vh;
+    width:100%;
+    padding-top: 86px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-box{
+    background-color: rgb(138, 186, 152);
+    border: 1px solid black;
+    width: 36%;
+    margin: 10px;
+}
+.projects h3{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.projects h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .contact{
-    background-color: #e4a59e;
+    background-color:grey;
     height:100vh;
     width: 100%;
     padding-top: 86px;
@@ -124,4 +149,57 @@ nav ul li a{
 .contact p{
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact form{
+    align-items: center;
+    padding-top: 50px;
+}
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="email"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: 0;
 }
